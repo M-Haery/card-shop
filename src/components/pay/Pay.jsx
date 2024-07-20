@@ -3,6 +3,7 @@ import CheckIcon from "@mui/icons-material/Check";
 import PageData from "../pageData/PageData";
 import CreditCardIcon from '@mui/icons-material/CreditCard'; 
 import useCounter from "../../hooks/useCounter";
+import Notification from '../panel/admins/Notification';
 
 export default function Pay(props) {
   const [price, setPrice] = useState(props.price);
@@ -10,7 +11,13 @@ export default function Pay(props) {
   const [payable, setPayable] = useState(price);
   const [paymentMethod, setPaymentMethod] = useState(true);
 
+  const [phoneInput, setPhoneInput] = useState()
+  const [emailInput, setEmailInput] = useState()
+
   const [quantity, quantityPlus, quantityMinus] = useCounter(1)
+
+  const [isphoneNotifeShow, setIsphoneNotifeShow] = useState(false)
+  const [isSuccessModalShow, setIsSuccessModalShow] = useState(false)
 
   function cartToCartHandler(){
     setPaymentMethod(true)
@@ -30,18 +37,51 @@ export default function Pay(props) {
     setPayable(price)
   },[price])
 
+  function submitHandler(){
+    if(phoneInput.length < 10){
+       setIsphoneNotifeShow(true)
+       setTimeout(()=>{
+         setIsphoneNotifeShow(false)
+       },2000)
+    }else{
+      let newOrder = {product: props.title, price: price, phone: phoneInput, email: emailInput}
+  
+      fetch("http://localhost:3000/orders", {
+        method: 'post',
+        headers:{"content-type":"application/json"},
+        body: JSON.stringify(newOrder)
+      })
+      .then(()=> {
+        setIsSuccessModalShow(true)
+        setTimeout(()=>{
+          setIsSuccessModalShow(false)
+        },2000)
+      })
+
+    }
+  }
+
   return (
     <>
     <PageData isPay={true}/>
     <div className=" flex flex-col md:flex-row gap-10 dark:text-white dark:bg-slate-900 mt-7 w-[90%] sm:w-[70%] md:w-[650px] lg:w-[800px] xl:w-[80%] m-auto">
-      <div className="flex flex-col gap-3 lg:h-[600px] pt-3 shadow-2xl border border-gray-400 dark:bg-slate-700 rounded-lg md:w-[50%] lg:w-[40%]">
+    {isphoneNotifeShow && <Notification title={"لطفا شماره همراه را به درستی وارد کنید"} color={"darkRed"}/>}
+    {isSuccessModalShow && <Notification title={"پرداخت با موفقیت انجام شد"} color={"aqua"}/>}
+      <div className="flex flex-col lg:h-[600px] pt-3 shadow-2xl border border-gray-400 dark:bg-slate-700 rounded-lg md:w-[50%] lg:w-[40%]">
         <div className="w-[90%] flex flex-col gap-3 m-auto">
           <h2>شماره همراه (اجباری)</h2>
-          <input type="text" placeholder="مثلا 09907220089" className=" w-full  px-5 py-1 rounded-lg dark:bg-slate-900 border-4 border-[#eee] dark:border-black"/>
+          <input
+           onChange={e => setPhoneInput(e.target.value)}
+           value={phoneInput}
+           type="text" 
+           placeholder="مثلا 09907220089" 
+           className=" w-full  px-5 py-1 rounded-lg dark:bg-slate-900 border-4 border-[#eee] dark:border-black"/>
         </div>
         <div className="flex flex-col gap-3 w-[90%] m-auto">
           <h2>ایمیل (اختیاری)</h2>
           <input
+            onChange={e => setEmailInput(e.target.value)}
+            value={emailInput}
             type="email"
             name=""
             id=""
@@ -50,30 +90,18 @@ export default function Pay(props) {
             />
         </div>
 
-        <div className="w-[90%] flex flex-col gap-3 m-auto">
-          <h2>کد تخفیف</h2>
-          <input
-            type="text"
-            placeholder="در صورتی که کد تخفیف دارید وارد کنید"
-            className=" w-full px-5 py-1 rounded-lg dark:bg-slate-900 border-4 border-[#eee] dark:border-black"
-            />
-          <button className="bg-[#62c263] py-1 mt-3 rounded-lg text-lg">ثبت</button>
-        </div>
         <div className=" w-[96%] rounded-xl m-auto mb-3 text-justify p-4 bg-[#224a5c] text-[#59c6ce;]">
           <p>
             <CheckIcon />
-            می توانید از کد تخفیف 90percent جهت تست بخش تخفیف استفاده کنید.
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
           </p>
           <p>
             <CheckIcon />
-            در هنگام ورود شماره همراه و ایمیل دقت کنید، اطلاعات خرید به آنها
-            ارسال می شود.
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
           </p>
           <p>
             <CheckIcon />
-            درگاه زرین پال در وضعیت سند باکس(Sandbox) است. بنابراین برای تست
-            خرید از درگاه زرین پال استفاده کنید تا بدون پرداخت مبلغی خروجی بعد
-            از پرداخت را مشاهده کنید.
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
           </p>
         </div>
       </div>
@@ -131,7 +159,7 @@ export default function Pay(props) {
         <input type="checkbox" name="" id=""  className=" w-7 h-7" />
   قوانین و ضوابط سایت را مطالعه کرده و می پذیرم. مشاهده قوانین و ضوابط  
         </div>
-        <button className=" block m-auto bg-[#5a8dee] text-white px-5 py-2 rounded-md">پرداخت و ثبت<CreditCardIcon/></button>
+        <button onClick={() => submitHandler()} className=" block m-auto bg-[#5a8dee] text-white px-5 py-2 rounded-md">پرداخت و ثبت<CreditCardIcon/></button>
         
       </div>
     </div>
