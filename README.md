@@ -3,7 +3,7 @@ Make sure you have the following installed:
 
 Node.js
 
-npm (or yarn)
+npm 
 
 
 Clone the repository:
@@ -18,9 +18,9 @@ Install dependencies:
 npm install
 
 
-Run the project:
+Run the project:np
 
-npm start
+npm run dev
 
 Starting the Mock Backend
 
