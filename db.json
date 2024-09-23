@@ -1,0 +1,671 @@
+{
+  "posts": [
+    {
+      "id": "147d",
+      "faName": "گوگل پلی",
+      "enName": "google play",
+      "img": "/images/googleplay.jpg",
+      "isShow": true
+    },
+    {
+      "id": "b5a6",
+      "faName": "آیتونز",
+      "enName": "ITUNES",
+      "img": "/images/itunes.jpg",
+      "isShow": true
+    },
+    {
+      "id": "f360",
+      "faName": "کریو",
+      "enName": "KERIO",
+      "img": "/images/kerio.jpg",
+      "isShow": true
+    },
+    {
+      "id": "c5e1",
+      "faName": "نود 32",
+      "enName": "NOD 32",
+      "img": "/images/nod.jpg",
+      "isShow": true
+    },
+    {
+      "id": "2635",
+      "faName": "گیم پینگ",
+      "enName": "GAME PING",
+      "img": "/images/ping.png",
+      "isShow": true
+    },
+    {
+      "id": "4555",
+      "faName": "اسپاتیفای",
+      "enName": "SPOTIFY",
+      "img": "/images/spotify.png",
+      "isShow": true
+    },
+    {
+      "id": "ce7a",
+      "faName": "استیم",
+      "enName": "STEAM",
+      "img": "/images/steam.png",
+      "isShow": true
+    },
+    {
+      "id": "9d4a",
+      "faName": "ایکس باکس",
+      "enName": "XBOX",
+      "img": "/images/xbox.jpg",
+      "isShow": true
+    }
+  ],
+  "products": [
+    {
+      "id": "c600",
+      "title": "اکانت سی روزه گوگل پلی",
+      "price": "99000",
+      "isAvailable": true,
+      "category": "گوگل پلی",
+      "img": "/images/googleplay.jpg"
+    },
+    {
+      "id": "1d72",
+      "title": "اکانت 60 روزه گوگل پلی",
+      "price": "120000",
+      "isAvailable": true,
+      "category": "گوگل پلی",
+      "img": "/images/googleplay.jpg"
+    },
+    {
+      "id": "e375",
+      "title": "اکانت 30 روزه آیتونز",
+      "price": "200000",
+      "isAvailable": true,
+      "category": "آیتونز",
+      "img": "/images/itunes.jpg"
+    },
+    {
+      "id": "e698",
+      "title": "سرویس یکساله کریو",
+      "price": "1000000",
+      "isAvailable": true,
+      "category": "کریو",
+      "img": "/images/kerio.jpg"
+    },
+    {
+      "id": "ea75",
+      "title": "سرویس یک ماهه کریو",
+      "price": "70000",
+      "isAvailable": true,
+      "category": "کریو",
+      "img": "/images/kerio.jpg"
+    },
+    {
+      "id": "553e",
+      "title": "سرویس دو ماهه کریو",
+      "price": "130000",
+      "isAvailable": true,
+      "category": "کریو",
+      "img": "/images/kerio.jpg"
+    },
+    {
+      "id": "2f7c",
+      "title": "آنتی ویروس یک ماهه یک کاربره",
+      "price": "99000",
+      "isAvailable": true,
+      "category": "نود 32",
+      "img": "/images/nod.jpg"
+    },
+    {
+      "id": "3537",
+      "title": "آنتی ویروس یک ماهه دو کاربره",
+      "price": "150000",
+      "isAvailable": true,
+      "category": "نود 32",
+      "img": "/images/nod.jpg"
+    },
+    {
+      "id": "3696",
+      "title": "سرویس گیم پینگ سه ماهه",
+      "price": "150000",
+      "isAvailable": true,
+      "category": "گیم پینگ",
+      "img": "/images/ping.png"
+    },
+    {
+      "id": "8753",
+      "title": "اکانت اسپاتیفای یک ماهه",
+      "price": "99000",
+      "isAvailable": true,
+      "category": "اسپاتیفای",
+      "img": "/images/spotify.png"
+    },
+    {
+      "id": "5a41",
+      "title": "اکانت دو ماهه اسپاتیفای",
+      "price": "150000",
+      "isAvailable": true,
+      "category": "اسپاتیفای",
+      "img": "/images/spotify.png"
+    },
+    {
+      "id": "ac3c",
+      "title": "اکانت 3 ماهه اسپاتیفای",
+      "price": "200000",
+      "isAvailable": true,
+      "category": "اسپاتیفای",
+      "img": "/images/spotify.png"
+    },
+    {
+      "id": "9f94",
+      "title": "اکانت 6 ماهه اسپاتیفای",
+      "price": "399000",
+      "isAvailable": true,
+      "category": "اسپاتیفای",
+      "img": "/images/spotify.png"
+    },
+    {
+      "id": "03ff",
+      "title": "اکانت 30 روزه استیم",
+      "price": "120000",
+      "isAvailable": true,
+      "category": "استیم",
+      "img": "/images/steam.png"
+    },
+    {
+      "id": "e4c4",
+      "title": "اکانت 60 روزه استیم",
+      "price": "200000",
+      "isAvailable": true,
+      "category": "استیم",
+      "img": "/images/steam.png"
+    },
+    {
+      "id": "98f1",
+      "title": "اکانت یک ماهه ایکس باکس",
+      "price": "50000",
+      "isAvailable": true,
+      "category": "ایکس باکس",
+      "img": "/images/xbox.jpg"
+    },
+    {
+      "id": "3052",
+      "title": "اکانت دو ماهه ایکس باکس",
+      "price": "100000",
+      "isAvailable": true,
+      "category": "ایکس باکس",
+      "img": "/images/xbox.jpg"
+    },
+    {
+      "id": "71c3",
+      "title": "اکانت یکساله ایکس باکس",
+      "price": "1000000",
+      "isAvailable": true,
+      "category": "ایکس باکس",
+      "img": "/images/xbox.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "1. با اسکریپت کارتا چه محصولاتی را می توانیم بفروشیم و با آن به در آمد برسیم؟ ",
+      "answer": "اسکریپت کارتا مناسب فروشگاه های است که بعد از فروش به خریدار(کاربر سایت) یوزرنیم، رمز، سریال یا داده هایی شبیه کد ارائه می دهند. برای مثال کارت شارژ ها، گیفت کارت ها(از جمله: آیتونز، گوگل پلی، ایکس باکس، استیم، اسپاتیفای آمریکا و )، اکانت های بازی، دبیت کارت ها، سرویس کاهش پینگ، لایسنس نود ۳۲، سرویس کریو، اکانت های نرم افزاری و با اسکریپت کارتا قابل فروش هستند."
+    },
+    {
+      "id": "2",
+      "question": "2. آیا سورس این اسکریپت کد باز هست؟",
+      "answer": "بله، این اسکریپت به صورت کد باز(Open Source) ارائه شده است و شما می توانید کد های آن را تغییر دهید."
+    },
+    {
+      "id": "3",
+      "question": "3. با خرید اسکریپت مجاز به نصب و استفاده برای چند دامین هستم؟",
+      "answer": "فقط می توانید برای یک دامین استفاده کنید. و اگر برای دامین دیگری می خواهید استفاده کنید مجدد کارتا را خریداری کنید."
+    },
+    {
+      "id": "4",
+      "question": "4. امکان نصب این اسکریپت روی وردپرس وجود دارد؟",
+      "answer": "خیر، اسکریپت کارتا افزونه وردپرس نیست و نمی توان آن را روی وردپرس نصب کرد ولی می توان در کنار وردپرس، کارتا را نصب کرد."
+    },
+    {
+      "id": "5",
+      "question": "5. نصب اسکریپت کارتا بر روی سرور آسان است؟",
+      "answer": "کارتا امکانی را فراهم کرده که شما به راحتی می توانید اسکریپت را بر روی سرورتان نصب کنید. هر چند اگر باز هم به مشکل خاصی برخورد کردید، ما در کنار شما برای رفع مشکل هستیم."
+    },
+    {
+      "id": "6",
+      "question": "6. امکان تغییر گروهی قیمت ها به صورت دلاری وجود دارد؟ ",
+      "answer": "بله، با توجه به تغییر و نوسانات ارزها کارتا برای راحتی مدیر سایت امکانی را فراهم کرده است که بتواند محصولات خود را به صورت دلار، یورو، پوند و درهم وارد کند و با تنظیم ارزش ارز به تومان در تنظیمات تمام قیمت محصولات را یکجا به روز کند."
+    },
+    {
+      "id": "7",
+      "question": "7. پنل های پیامکی پیش فرض کارتا چیست؟",
+      "answer": "به طور پیش فرض پنل پیامکی رنگینه، کاوه نگار، ملی پیامک و SMS.ir در کارتا با امکان استفاده از الگو(پترن) وجود دارد. اما اگر پنل پیامکی دیگری مد نظر شماست با زدن تیکت در راستچین می توانید از انجام شدن آن یا هزینه اش مطلع شوید."
+    },
+    {
+      "id": "8",
+      "question": "8. درگاه های پرداختی پیش فرض کارتا چیست؟",
+      "answer": "به طور پیش فرض درگاه ملت، سامان، صادرات، پارسیان، آیدی پی، بیت پی، زرین پال، زیبال، سپال، نکست پی و وندار در کارتا وجود دارد. اما اگر درگاه دیگری مد نظر شماست با زدن تیکت در راستچین می توانید از انجام شدن آن یا هزینه اش مطلع شوید."
+    },
+    {
+      "id": "9",
+      "question": "9. آیا اسکریپت کارتا دارای سیستم تیکت و پشتیبانی است؟",
+      "answer": "بله، کارتا حاوی یک ماژول قوی تیکت(پشتیبانی) هست که دارای UX و UI بسیار خوبی است و علاوه بر این امکان ارسال فایل نیز در آن فراهم شده است."
+    },
+    {
+      "id": "10",
+      "question": "10. کاربرد خرید غیر آنی و با تاخیر در کارتا چیست؟",
+      "answer": "فرض کنید شما می خواهید یک سری کارت به مشتریانتان بفروشید، ولی به دلایل زیر نمی خواهید همان موقع کد ها را نمایش دهید و می خواهید بعدا اطلاعات کارت در دسترس مشتری قرار دهید."
+    },
+    {
+      "id": "11",
+      "question": "11. آیا کاربر برای خرید کردن باید لاگین کند؟",
+      "answer": "در تنظیمات گزینه ای وجود دارد که مدیر سایت تصمیم می گیرد که کاربر حتما باید لاگین باشد تا خرید کند یا بدون لاگین کردن هم می تواند خرید کند. چنانچه این گزینه فعال باشد و کاربر لاگین نباشد آنگاه قبل از درگاه کاربر باید شماره همراه اش را تایید کند."
+    },
+    {
+      "id": "12",
+      "question": "12. احراز هویت (ثبت نام و لاگین) در کارتا به چه صورت است؟ ",
+      "answer": "بسیار آسان و با امنیت بالا طی دو مرحله ثبت نام یا لاگین کاربر با UX عالی انجام می شود. کاربر شماره همراه خود را وارد می کند، سپس کد تایید برایش پیامک می شود و در نهایت کد تایید را وارد می کند و لاگین می شود. تمام شد و رفت، اصلا نیاز به رمز عبور، بازیابی رمز عبور، تغییر رمز عبور و به خاطر سپردن رمز عبور نیست."
+    }
+  ],
+  "panelInfo": [
+    {
+      "id": "1",
+      "title": "مدیر",
+      "value": 1,
+      "svgAdrres": "./images/user-admin-svgrepo-com.svg"
+    },
+    {
+      "id": "2",
+      "title": "محصول",
+      "value": 21,
+      "svgAdrres": "./images/gift-card-svgrepo-com.svg"
+    },
+    {
+      "id": "3",
+      "title": "سفارش ثبت شده",
+      "value": 10,
+      "svgAdrres": "./images/diamond-svgrepo-com.svg"
+    },
+    {
+      "id": "4",
+      "title": "سفارش دیده نشده",
+      "value": 6,
+      "svgAdrres": "./images/cart-shopping-svgrepo-com.svg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "f43f",
+      "product": "سرویس گیم پینگ سه ماهه",
+      "price": 300000,
+      "phone": "09907220089",
+      "email": "haerisadra@gmail.com"
+    },
+    {
+      "id": "ac1d",
+      "product": "اکانت دو ماهه اسپاتیفای",
+      "price": 150000,
+      "phone": "09907220089",
+      "email": ""
+    },
+    {
+      "id": "deba",
+      "product": "آنتی ویروس یک ماهه یک کاربره",
+      "price": 99000,
+      "phone": "09907220089",
+      "email": "reahis82@gmail.com"
+    }
+  ],
+  "monthlySales": [
+    {
+      "name": "فروردین",
+      "uv": 4200,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "c7bd"
+    },
+    {
+      "name": "اردیبهشت",
+      "uv": 2080,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "eb97"
+    },
+    {
+      "name": "خرداد",
+      "uv": 3010,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "f812"
+    },
+    {
+      "name": "تیر",
+      "uv": 910,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "5468"
+    },
+    {
+      "name": "مرداد",
+      "uv": 910,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "a685"
+    },
+    {
+      "name": "شهریور",
+      "uv": 910,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "1b62"
+    },
+    {
+      "name": "مهر",
+      "uv": 910,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "4af0"
+    },
+    {
+      "name": "آبان",
+      "uv": 910,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "1deb"
+    },
+    {
+      "name": "آذر",
+      "uv": 910,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "bce4"
+    },
+    {
+      "name": "دی",
+      "uv": 910,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "5792"
+    },
+    {
+      "name": "بهمن",
+      "uv": 910,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "fea3"
+    },
+    {
+      "name": "اسفند",
+      "uv": 910,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "5882"
+    }
+  ],
+  "dialySales": [
+    {
+      "name": "شنبه",
+      "uv": 102,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "ec87"
+    },
+    {
+      "name": "یکشنبه",
+      "uv": 532,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "d2a0"
+    },
+    {
+      "name": "دوشنبه",
+      "uv": 123,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "3f74"
+    },
+    {
+      "name": "سه شنبه",
+      "uv": 423,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "6d81"
+    },
+    {
+      "name": "چهارشنبه",
+      "uv": 13,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "659f"
+    },
+    {
+      "name": "پنجشنبه",
+      "uv": 76,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "a112"
+    },
+    {
+      "name": "جمعه",
+      "uv": 312,
+      "pv": 2400,
+      "amt": 2400,
+      "id": "12d2"
+    }
+  ],
+  "admins": [
+    {
+      "id": "e220",
+      "userID": 1,
+      "name": "صدرا حائری",
+      "userName": "admin",
+      "password": "123456",
+      "email": "haerisadra@gmail.com",
+      "phone": "09907220089"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "e0d5",
+      "ticketID": 1,
+      "name": "محمد حسین",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "کم",
+      "part": "فروش",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "پاسخ داده شده"
+    },
+    {
+      "id": "c495",
+      "ticketID": 1,
+      "name": "sadra",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "عادی",
+      "part": "فروش",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "7538",
+      "ticketID": 1,
+      "name": "haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "زیاد",
+      "part": "فروش",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "06c0",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "زیاد",
+      "part": "پشتیبانی",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "7e1f",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "زیاد",
+      "part": "همکاری",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "644a",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "زیاد",
+      "part": "سایر",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "بسته شده"
+    },
+    {
+      "id": "6c41",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "عادی",
+      "part": "سایر",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "f267",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "عادی",
+      "part": "پشتیبانی",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "4d32",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "عادی",
+      "part": "همکاری",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "d935",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "کم",
+      "part": "همکاری",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "4b5d",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "کم",
+      "part": "همکاری",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "0e8a",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "کم",
+      "part": "فروش",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "b757",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "کم",
+      "part": "پشتیبانی",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "bb1b",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "عادی",
+      "part": "پشتیبانی",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "8f72",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "عادی",
+      "part": "همکاری",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "296e",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "عادی",
+      "part": "همکاری",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    },
+    {
+      "id": "10c5",
+      "ticketID": 1,
+      "name": "sadra haeri",
+      "email": "haeerisadra@gmail.com",
+      "phone": "09907220089",
+      "urgency": "عادی",
+      "part": "همکاری",
+      "title": "test",
+      "message": "test test test test",
+      "condition": "در انتظار"
+    }
+  ]
+}
