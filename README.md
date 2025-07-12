@@ -18,11 +18,10 @@ Install dependencies:
 npm install
 
 
-Run the project
+Run the project:
 
 npm run dev
 
-Starting the Mock Backend
 
 To start the json-server that simulates a backend API, run the following command:
 
